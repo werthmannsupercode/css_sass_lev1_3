@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+}
+
+.ball1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 2px solid black;
+  animation-name: ballRollt;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+.ball2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid black;
+  animation-name: ballRollt;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.ball3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid black;
+  animation-name: ballRollt;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+
+@keyframes ballRollt {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1340px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
